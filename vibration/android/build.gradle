@@ -24,7 +24,7 @@ apply plugin: "com.android.library"
 android {
     namespace = "com.benjaminabel.vibration"
 
-    compileSdk = 34
+    compileSdk = 36
 
     gradle.projectsEvaluated {
         tasks.withType(JavaCompile) {
